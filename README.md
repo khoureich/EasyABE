@@ -1,4 +1,4 @@
-# EasyABE
+# An Easy Ciphertext-Policy Attribute-Based Encryption
 Attribute-Based Encryption is widely recognized as a leap forward in the field of public key encryption. It allows to enforce an access control on encrypted data [1]. Easy-ABE [2] is a Ciphertext-Policy Attribute-Based Encryption (CP-ABE) scheme. In a CP-ABE scheme [3], the access policy is embedded in the ciphertext and users secret keys are associated with sets of attributes. Users wishing to decrypt the ciphertext must have the necessary attributes to satisfy the ciphertext's built-in access control.
 
 ## Prerequisites
