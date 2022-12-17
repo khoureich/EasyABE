@@ -47,7 +47,7 @@ public class Main {
 //        System.out.println(secretKey2);
 //
         System.out.println("--- ENCRYPT ---");
-        String[] accessPolicy = {"01010001", "01011000"};
+        String[] accessPolicy = {"1010001", "1011000"};
         CipherText cipherText = EasyABE.encrypt(accessPolicy, ptext);
         System.out.println(cipherText);
         
