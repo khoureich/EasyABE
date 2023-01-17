@@ -30,7 +30,7 @@ public class Main {
             "AgeGroup:>25",
             "Citizenship:AAA"};
         EasyABE.setUniverseOfAttr(universeOfAttr);
-        System.out.println("\nUniverse ot attributes: "+Arrays.toString(universeOfAttr));
+        System.out.println("\nUniverse of attributes: "+Arrays.toString(universeOfAttr));
 //        
         System.out.println("Access policy = (Student-Status:Degree OR Student-Status:Conditional) AND (AgeGroup:18-25) AND (Citizenship:AAA)");
 //
