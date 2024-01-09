@@ -3,7 +3,7 @@ This is the implementation of our scheme "Easy-ABE: An Easy Ciphertext-Policy At
 
 Attribute-Based Encryption is widely recognized as a leap forward in the field of public key encryption. It allows to enforce an access control on encrypted data [2,3]. Decryption time in ABE schemes can be long depending on the number of attributes and pairing operations. This drawback hinders their adoption on a broader scale.
 
-In this paper, we propose a non-monotone CP-ABE scheme that has no restrictions on the size of attribute sets and policies, allows fast decryption and is adaptively secure under the CBDH-3 assumption. To achieve this, we approached the problem from a new angle, namely using a set membership relation for access structure. We have implemented our scheme using the Charm framework and it performs better than FAME [4] an FABEO [5].
+Easy-ABE is a non-monotone CP-ABE scheme that has no restrictions on the size of attribute sets and policies, allows fast decryption and is adaptively secure under the CBDH-3 assumption. To achieve this, we approached the problem from a new angle, namely using a set membership relation for access structure. Easy-ABE performs better than FAME [4] an FABEO [5].
 
 ## Prerequisites
 The schemes are implemented in Python 3.7.17 using the Charm framework [6] version 0.50.
