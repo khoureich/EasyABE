@@ -17,18 +17,18 @@ def measure_sizes(util,abe,attr_list,policy_str,msg, N=20):
     ctxt_size = 0
 
     for i in range(N):
-        # setup time
+        # setup
         (mpk, msk) = abe.setup()
             
-        # encryption time
+        # encryption
         A = abe.get_A(policy_str)
         ctxt = abe.encrypt(mpk, A, msg)
 
-        # keygen time
+        # keygen
         w = abe.get_attr_string(attr_list)
         sk = abe.keygen(mpk, msk, w)
 
-        # decryption time
+        # decryption
         rec_msg = abe.decrypt(ctxt, sk)
         #print(rec_msg)
 
