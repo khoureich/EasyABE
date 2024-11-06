@@ -7,7 +7,6 @@ Easy-ABE is a non-monotone CP-ABE scheme that has no restrictions on the size of
 
 ## Prerequisites
 The schemes in the python version are implemented in Python 3.7.17 using the Charm framework [6] version 0.50.
-A simple installation guide for Charm framework can be found at https://lrusso96.github.io/blog/cryptography/2021/03/04/charm-setup.html
 
 The java version can either be run from the NetBeans IDE or from command line.
 To run it from command line follow these steps:<br/> 
