@@ -19,7 +19,7 @@ To run it from command line follow these steps:<br/>
 
 ## References
 
-[1] Ka, A.K.: Easy-abe: An easy ciphertext-policy attribute-based encryption. In: Bella, G., Doinea, M., Janicke, H. (eds.) Innovative Security Solutions for Information Technology and Communications. pp. 168–183. Springer Nature Switzerland, Cham (2023)
+[1] Ka, A.K.: Easy-abe: An easy ciphertext-policy attribute-based encryption. In: Bella, G., Doinea, M., Janicke, H. (eds.) Innovative Security Solutions for Information Technology and Communications. pp. 168–183. Springer Nature Switzerland, Cham (2023). Extended version available on ePrint Archive, Report [2023/1814](https://eprint.iacr.org/2023/1814)
 
 [2] Goyal, Vipul, Omkant Pandey, Amit Sahai, and Brent Waters. "Attribute-based encryption for fine-grained access control of encrypted data." In Proceedings of the 13th ACM conference on Computer and communications security, pp. 89-98. ACM, 2006. Full version available on ePrint Archive, Report [2006/309](https://eprint.iacr.org/2006/309).
 
