@@ -79,7 +79,7 @@ class EASYABE():
         sk1 = g1_ab*hw_r
         sk2 = g2_r
         
-        sk = {'w':w, 'sk1':sk1, 'sk2':sk2}
+        sk = {'w':int(w, 2), 'sk1':sk1, 'sk2':sk2}
         
         return sk
     
@@ -107,7 +107,8 @@ class EASYABE():
         hws = {}
         for w in A:
             hw = self.H1(w)
-            hws[w] = hw**s
+            _w = str(int(w, 2))
+            hws[_w] = hw**s
             
         ctxt = {'c1':c1, 'c2c3':c2c3, 'g2_s':g2_s, 'hws':hws} 
         return ctxt
@@ -116,7 +117,7 @@ class EASYABE():
         if debug:
             print('\nDecryption algorithm:\n')
             
-        w = sk['w']
+        _w = sk['w']
         sk1 = sk['sk1']
         sk2 = sk['sk2']
         
@@ -125,9 +126,9 @@ class EASYABE():
         g2_s = ctxt['g2_s']
         hws = ctxt['hws']
         
-        if w in hws:
+        if str(_w) in hws:
             rho1 = pair(sk1,g2_s)
-            rho2 = pair(hws[w], sk2)
+            rho2 = pair(hws[str(_w)], sk2)
             rho = rho1/rho2
             sigma = self.H2(rho)
             c1_sigma = c1**sigma
@@ -159,7 +160,4 @@ class EASYABE():
             A.append(self.get_attr_string(r2))
     
         return A     
-         
-        
-        
-        
+    
