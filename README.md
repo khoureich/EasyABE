@@ -8,14 +8,7 @@ Easy-ABE is a non-monotone CP-ABE scheme that has no restrictions on the size of
 ## Prerequisites
 The schemes in the python version are implemented in Python 3.7.17 using the Charm framework [6] version 0.50.
 
-The java version can either be run from the NetBeans IDE or from command line.
-To run it from command line follow these steps:<br/> 
-1- Download the Bouncy Castle provider (bcprov-ext-jdk18on-177.jar) from https://www.bouncycastle.org/latest_releases.html<br/>
-2- Download JPBC from https://sourceforge.net/projects/jpbc/files/jpbc_2_0_0. All the jars files can be found under the jars folder.<br/>
-3- Paste the following jars files to the lib directory of the EasyABE directory: bcprov-ext-jdk18on-177.jar, jpbc-api-2.0.0.jar, jpbc-pbc-2.0.0.jar, jpbc-plaf-2.0.0.jar<br/>
-4- Make sure the JAVA_HOME environmental variable is set to your Java environment.<br/>
-5- Install Apache Ant (for Ubuntu type to your terminal sudo apt install ant).<br/>
-6- To run EasyABE change to the its directory and execute the command: ant run
+The java version can be run in Visual Studio Code (VS Code). You must install the Extension Pack for Java in VS Code. Ensure you have a Java Development Kit (JDK 11 or newer) installed on your system.
 
 ## References
 
