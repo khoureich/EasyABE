@@ -1,3 +1,8 @@
+<p align="center">
+    <img alt="ViewCount" src="https://views.whatilearened.today/views/github/khoureich/EasyABE.svg">
+    <a href='https://github.com/MShawon/github-clone-count-badge'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/khoureich/07264b963e8a72580e14b2b14a54d2e9/raw/clone.json&logo=github'></a>
+</p>
+
 # EasyABE
 This is the implementation of our scheme "Easy-ABE: An Easy Ciphertext-Policy Attribute-Based Encryption" by Ahmad Khoureich Ka [1].
 
